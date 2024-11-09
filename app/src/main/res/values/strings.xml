@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppListaCurso</string>
+    <string name="txt_app_lista_curso">Lista Curso</string>
+    <string name="txt_hint_edit_primeiro_nome">Primeiro Nome</string>
+    <string name="txt_hint_edit_sobrenome">Sobrenome</string>
+    <string name="txt_hint_edit_nome_do_curso">Nome do Curso</string>
+    <string name="txt_hint_edit_numero_de_telefone">Numero de Telefone</string>
+    <string name="txt_button_limpar">Limpar</string>
+    <string name="txt_button_salvar">Salvar</string>
+    <string name="txt_button_finalizar">Finalizar</string>
+</resources>

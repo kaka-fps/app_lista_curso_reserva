@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Controller.View.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/txt_app_lista_curso"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_primeiro_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_primeiro_nome"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_titulo" />
+
+    <EditText
+        android:id="@+id/txt_sobrenome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_sobrenome"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_primeiro_nome" />
+
+    <EditText
+        android:id="@+id/edit_curso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_nome_do_curso"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_sobrenome" />
+
+    <EditText
+        android:id="@+id/edit_contato_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_numero_de_telefone"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_curso" />
+
+    <Button
+        android:id="@+id/btn_Limpar"
+        android:layout_width="136dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/txt_button_limpar"
+        app:layout_constraintBottom_toTopOf="@+id/btn_finalizar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_salvar"
+        android:layout_width="136dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/txt_button_salvar"
+        app:layout_constraintBottom_toTopOf="@+id/btn_finalizar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_Limpar" />
+
+    <Button
+        android:id="@+id/btn_finalizar"
+        android:layout_width="329dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/txt_button_finalizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
